@@ -1,16 +1,73 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details Table</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        table, th, tr, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        table {
+            background-color: yellow;
+            width: 60%;
+            margin: 40px auto;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        caption {
+            font-weight: bold;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+    </style>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <!-- the entire body must be written by student -->
+    <table>
+        <caption>Student Details</caption>
+        <thead>
+            <tr>
+                <th>NAME</th>
+                <th>AGE</th>
+                <th>BRANCH</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Vibhuti Narayan Singh</td>
+                <td>22</td>
+                <td>CSE</td>
+            </tr>
+            <tr>
+                <td>Rohit Sharma</td>
+                <td>23</td>
+                <td>ECE</td>
+            </tr>
+            <tr>
+                <td>Priya Yadav</td>
+                <td>21</td>
+                <td>IT</td>
+            </tr>
+            <tr>
+                <td>Ankit Verma</td>
+                <td>24</td>
+                <td>ME</td>
+            </tr>
+        </tbody>
+    </table>
 
+    <script type="text/javascript" src="./script.js"></script>
 </body>
 
 </html>
